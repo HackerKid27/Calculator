@@ -15,7 +15,6 @@ jobs:
       - name: Build with Buildozer
         uses: ArtemSBulgakov/buildozer-action@v1
         with:
-          workdir: <specify the directory of the app no don't mention this the app files are in root directory>
           buildozer_version: stable
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
